@@ -1,6 +1,12 @@
 # STR-Projeto-2
 Executivo cíclico
 
+### Vídeo Demonstração
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3heO9XZpp2E?si=6NgC1b1oTwWJGr6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
 ## Objetivo
 O executivo cíclico é uma técnica comumente utilizada para coordenar a execução de tarefas periódicas, garantindo a sincronização entre elas e otimizando o uso dos recursos do sistema.
 O objetivo principal deste projeto é fornecer uma implementação prática de um executivo cíclico em linguagem C, abordando os seguintes aspectos:
