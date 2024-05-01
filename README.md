@@ -20,13 +20,14 @@ O sistema compreende as seguintes etapas:
 - Ordenação das tarefas: As tarefas são ordenadas com base no menor tempo de execução, conforme a heurística SETF.
 - Escalonamento das tarefas: O escalonamento das tarefas é realizado dentro dos ciclos primários, seguindo a ordem definida pela heurística SETF.
 
-## Use Instructions
+## Instruções de uso
 
-```sh
-git clone https://github.com/DouradoR/STR-Projeto-2
-cd STR-Projeto-2
-make
-./projeto2
+```bash
+$ sudo apt-get install libjson-c-dev
+$ git clone https://github.com/DouradoR/STR-Projeto-2
+$ cd STR-Projeto-2
+$ make
+$ ./projeto2
 ```
 
 ## Código
