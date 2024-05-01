@@ -110,7 +110,8 @@ void ordenar_tarefas( Tarefa *tarefa_c,int num_tarefas){
 ```c
 void escalonamento_SETF(Tarefa *tarefa_c, int num_tarefas, int T_primario, int T_secundario){
     int tempo = 0;
-    int ciclo = 1;
+    int ciclo = 0;
+    int chave = 0;
 
     
     printf("\nEscalonamento das tarefas ( SETF ):\n");
@@ -118,22 +119,39 @@ void escalonamento_SETF(Tarefa *tarefa_c, int num_tarefas, int T_primario, int T
     
     while(tempo < T_primario){
         
+        
         //Ciclo atual
         if(tempo%T_secundario == 0){
-            printf("\nCiclo %d:\n",ciclo);
+            printf("\nCiclo %d:\n",ciclo+1);
             ciclo++;
         }
         
         //Executa a tarefa seguindo a ordem caso já o tempo seja maior ou igual ao tempo de prox execucao
         //Após executar altera o tempo para a próxima execucao daquela tarefa fazendo tempo + periodo
         for (int i = 0; i < num_tarefas; i++) {
+            
+            chave = 0;
+            
+        
             if(tempo >= tarefa_c[i].prox_execucao){
                 printf("- %s: Tempo de execução = %d, período = %d, prioridade = %d \n",
                 tarefa_c[i].id, tarefa_c[i].tempo_execucao, tarefa_c[i].periodo, tarefa_c[i].prioridade);
-                tarefa_c[i].prox_execucao = tempo + tarefa_c[i].periodo;       
+                tarefa_c[i].prox_execucao = tempo + tarefa_c[i].periodo; 
+                tempo += tarefa_c[i].tempo_execucao;
+                if(tempo%T_secundario == 0){
+                    chave = 1;
+                    printf("break");
+                    break;
+                    
+                    
+                }
+                chave = 1;
             }
         }
-        tempo++;
+        if(chave == 0){
+            tempo++;
+            
+        }
     }  
 }
 ```
