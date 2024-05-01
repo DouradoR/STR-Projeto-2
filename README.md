@@ -1,9 +1,9 @@
 # STR-Projeto-2
 Executivo cíclico
 
-### Vídeo Demonstração
+## Vídeo Demonstração
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3heO9XZpp2E?si=6NgC1b1oTwWJGr6w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+[![Nome do Vídeo](https://img.youtube.com/vi/ImpDx60qzqE/0.jpg)](https://www.youtube.com/watch?v=ImpDx60qzqE)
 
 
 
