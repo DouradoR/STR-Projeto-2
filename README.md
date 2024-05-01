@@ -22,13 +22,12 @@ O sistema compreende as seguintes etapas:
 
 ## Use Instructions
 
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+```sh
+git clone https://github.com/DouradoR/STR-Projeto-2
+cd STR-Projeto-2
+make
+./projeto2
 ```
-
-
-
 
 ## Código
 - Incluimos as bibliotecas necessárias para o programa, sendo <stdio.h> para operações de entrada e saída padrão e <json-c/json.h> para manipulação de JSON em C.
