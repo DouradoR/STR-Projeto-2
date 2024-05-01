@@ -20,6 +20,11 @@ O sistema compreende as seguintes etapas:
 - Ordenação das tarefas: As tarefas são ordenadas com base no menor tempo de execução, conforme a heurística SETF.
 - Escalonamento das tarefas: O escalonamento das tarefas é realizado dentro dos ciclos primários, seguindo a ordem definida pela heurística SETF.
 
+## Use Instructions
+'''terminal
+
+
+
 ## Código
 - Incluimos as bibliotecas necessárias para o programa, sendo <stdio.h> para operações de entrada e saída padrão e <json-c/json.h> para manipulação de JSON em C.
 ```c
