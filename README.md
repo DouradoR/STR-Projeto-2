@@ -21,9 +21,12 @@ O sistema compreende as seguintes etapas:
 - Escalonamento das tarefas: O escalonamento das tarefas é realizado dentro dos ciclos primários, seguindo a ordem definida pela heurística SETF.
 
 ## Use Instructions
-'''bash
-git
-'''
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+```
+
 
 
 
